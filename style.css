@@ -1,0 +1,41 @@
+/* ==========================================================================
+   VARIÁVEIS DE CONFIGURAÇÃO (FÁCIL PERSONALIZAÇÃO)
+   ========================================================================== */
+:root {
+    /* Paleta de Cores Obrigatória */
+    --cor-azul-profundo: #0a192f;
+    --cor-azul-metalico: #172a45;
+    --cor-azul-celeste: #30bced;
+    --cor-branco: #ffffff;
+    --cor-cinza-claro: #f4f6f9;
+    --cor-verde-agro: #2ec4b6;
+    --cor-amarelo-alerta: #ff9f1c;
+    --cor-ouro-premium: #d4af37;
+    --cor-preto: #020c1b;
+
+    /* Configurações de Layout Dinâmicas */
+    --fonte-principal: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --cantos-arredondados: 12px;
+    --padding-padrao: clamp(1rem, 3vw, 2.5rem);
+    --margem-padrao: 1.5rem;
+    --transicao-suave: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+    
+    /* Sistema de Sombras Modernas (Profundidade) */
+    --sombra-suave: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+    --sombra-premium: 0 10px 30px rgba(10, 25, 47, 0.1);
+
+    /* Controle de Acessibilidade Inicial */
+    --multiplicador-fonte: 1rem;
+}
+
+/* Modificações dinâmicas para Modo Escuro */
+body.dark-mode {
+    --cor-branco: #0b132b;
+    --cor-cinza-claro: #1c2541;
+    --cor-azul-profundo: #f4f6f9;
+    --cor-azul-metalico: #3a506b;
+    --sombra-premium: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+/* ==========================================================================
+   RESETS E CONFIG
